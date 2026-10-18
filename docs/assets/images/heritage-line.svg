@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Egothor project lineage</title>
+<desc id="desc">A timeline highlighting Search, J5M, Q!D, Radixor and MethodAtlas across the Egothor lineage.</desc>
+<rect width="1200" height="320" rx="20" fill="#fbfdff"/>
+<path d="M90 162H1110" stroke="#d6e1ea" stroke-width="2.5"/>
+<path d="M90 162 C230 162 220 88 365 88 S500 216 645 216 S790 112 930 112 S1035 162 1110 162" fill="none" stroke="#2b6d9f" stroke-width="5" stroke-linecap="round"/>
+<circle cx="90" cy="162" r="12" fill="#0b2441"/>
+<circle cx="365" cy="88" r="13" fill="#0b2441"/>
+<circle cx="645" cy="216" r="13" fill="#0b2441"/>
+<circle cx="930" cy="112" r="13" fill="#0b2441"/>
+<circle cx="1110" cy="162" r="13" fill="#0b2441"/>
+<circle cx="235" cy="120" r="7" fill="#2b6d9f"/>
+<circle cx="500" cy="172" r="7" fill="#2b6d9f"/>
+<circle cx="1040" cy="138" r="7" fill="#2b6d9f"/>
+<text x="36" y="30" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#0a5eb6">1998</text>
+<text x="318" y="30" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#0a5eb6">2007</text>
+<text x="603" y="30" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#0a5eb6">2012</text>
+<text x="892" y="30" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#0a5eb6">2018</text>
+<text x="1085" y="30" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#0a5eb6">2026</text>
+<text x="36" y="212" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#122b4d">Search</text>
+<text x="36" y="233" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5b7085">The original full-text search engine</text>
+<text x="365" y="48" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#122b4d">J5M</text>
+<text x="365" y="69" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5b7085">Distributed application platform</text>
+<text x="645" y="258" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#122b4d">Q!D</text>
+<text x="645" y="279" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5b7085">Experimental database direction</text>
+<text x="930" y="56" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#122b4d">Radixor</text>
+<text x="930" y="77" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5b7085">Renewed language-engineering line</text>
+<text x="1102" y="212" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#122b4d">MethodAtlas</text>
+<text x="1102" y="233" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5b7085">Evidence-oriented software assurance</text>
+</svg>

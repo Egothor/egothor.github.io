@@ -1,0 +1,123 @@
+<!doctype html>
+{% set locale = i18n_page_locale if i18n_page_locale is defined else (page.meta.lang if page and page.meta and page.meta.lang else 'en') %}
+{% set ui = config.extra.ui[locale] if config.extra and config.extra.ui and locale in config.extra.ui else config.extra.ui['en'] %}
+<html lang="{{ locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <title>{% if page and page.title and not (page.meta and page.meta.page_class == 'home-page') %}{{ page.title }} · {% endif %}{{ config.site_name }}</title>
+  <meta name="description" content="{{ page.meta.description if page and page.meta and page.meta.description else config.site_description }}">
+  {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
+  {% if language_links is defined %}{% for lang, href in language_links.items() %}<link rel="alternate" hreflang="{{ lang }}" href="{{ href }}">{% endfor %}{% endif %}
+  <link rel="icon" href="{{ 'assets/images/favicon.svg' | url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/egothor.css' | url }}">
+  <meta property="og:type" content="{% if page and page.meta and page.meta.person %}profile{% else %}website{% endif %}">
+  <meta property="og:site_name" content="Egothor">
+  <meta property="og:title" content="{% if page and page.title and not (page.meta and page.meta.page_class == 'home-page') %}{{ page.title }} · {% endif %}Egothor">
+  <meta property="og:description" content="{{ page.meta.description if page and page.meta and page.meta.description else config.site_description }}">
+  {% if page and page.canonical_url %}<meta property="og:url" content="{{ page.canonical_url }}">{% endif %}
+  <meta property="og:image" content="{{ config.site_url }}{{ page.meta.social_image if page and page.meta and page.meta.social_image else 'assets/images/og-egothor.png' }}">
+  <meta name="twitter:card" content="summary_large_image">
+  {% if page and page.meta and page.meta.person %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Leo Galamboš",
+    "honorificSuffix": "Ph.D.",
+    "url": "https://leogalambos.github.io/",
+    "image": "https://www.egothor.org/assets/images/leo-galambos.jpg",
+    "description": "Cybersecurity transformation, research and software engineering.",
+    "knowsAbout": ["Cybersecurity", "Software assurance", "Search engines", "Distributed systems", "Computer networks", "Databases"]
+  }
+  </script>
+  {% else %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Egothor",
+    "url": "https://www.egothor.org/",
+    "description": {{ config.site_description | tojson }}
+  }
+  </script>
+  {% endif %}
+</head>
+<body class="{% if page and page.meta and page.meta.page_class %}{{ page.meta.page_class }}{% endif %}">
+  <a class="skip-link" href="#main-content">{{ ui.skip }}</a>
+  <header class="site-header" data-site-header>
+    <div class="header-inner shell">
+      <a class="brand" href="{{ nav.homepage.url | url }}" aria-label="Egothor home">
+        <img src="{{ 'assets/images/egothor-mark.svg' | url }}" alt="" width="40" height="40">
+        <span class="brand-word">EGOTHOR</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+        <span></span><span></span><span></span><span class="sr-only">{{ ui.open_nav }}</span>
+      </button>
+      <div class="header-nav-wrap">
+        <nav class="primary-nav" id="primary-nav" aria-label="{{ ui.primary }}" data-primary-nav>
+          {% for nav_item in nav %}
+            {% if nav_item != nav.homepage %}
+              {% if nav_item.children %}
+                <div class="nav-cluster {% if nav_item.active %}is-active{% endif %}">
+                  <a class="nav-link nav-link--parent" href="{{ nav_item.children[0].url | url }}">{{ nav_item.title }} <span class="nav-chevron" aria-hidden="true">⌄</span></a>
+                  <div class="nav-menu" aria-label="{{ nav_item.title }}">
+                    {% for child in nav_item.children %}
+                      <a href="{{ child.url | url }}" {% if child.active %}aria-current="page"{% endif %}>{{ child.title }}</a>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% else %}
+                <a class="nav-link {% if nav_item.active %}is-active{% endif %}" href="{{ nav_item.url | url }}" {% if nav_item.active %}aria-current="page"{% endif %}>{{ nav_item.title }}</a>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </nav>
+        <div class="language-switcher" aria-label="{{ ui.language }}">
+          <a class="language-option {% if locale == 'en' %}is-active{% endif %}" href="/" data-language-link="en" lang="en" hreflang="en" title="English"><img src="{{ 'assets/images/flags/en.svg' | url }}" alt=""><span class="sr-only">English</span></a>
+          <a class="language-option {% if locale == 'zh' %}is-active{% endif %}" href="/zh/" data-language-link="zh" lang="zh" hreflang="zh" title="中文"><img src="{{ 'assets/images/flags/zh.svg' | url }}" alt=""><span class="sr-only">中文</span></a>
+          <a class="language-option {% if locale == 'es' %}is-active{% endif %}" href="/es/" data-language-link="es" lang="es" hreflang="es" title="Español"><img src="{{ 'assets/images/flags/es.svg' | url }}" alt=""><span class="sr-only">Español</span></a>
+          <a class="language-option {% if locale == 'fr' %}is-active{% endif %}" href="/fr/" data-language-link="fr" lang="fr" hreflang="fr" title="Français"><img src="{{ 'assets/images/flags/fr.svg' | url }}" alt=""><span class="sr-only">Français</span></a>
+          <a class="language-option {% if locale == 'de' %}is-active{% endif %}" href="/de/" data-language-link="de" lang="de" hreflang="de" title="Deutsch"><img src="{{ 'assets/images/flags/de.svg' | url }}" alt=""><span class="sr-only">Deutsch</span></a>
+        </div>
+        <a class="source-hub" href="{{ config.extra.source_hub }}" aria-label="{{ ui.source }}" title="{{ ui.source }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm10 8a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM7 11v2.5A3.5 3.5 0 0 0 10.5 17H14M17 13V8.5A3.5 3.5 0 0 0 13.5 5H10"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="site-main {% if page and page.meta and page.meta.wide %}site-main--wide{% endif %}">
+    <article class="page-content">
+      {{ page.content | safe }}
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-intro">
+        <a class="footer-brand" href="{{ nav.homepage.url | url }}">
+          <img src="{{ 'assets/images/egothor-mark.svg' | url }}" alt="" width="32" height="32">
+          <span>EGOTHOR</span>
+        </a>
+        <p>{{ ui.footer_intro }}</p>
+      </div>
+      <div class="footer-links">
+        <a href="{{ 'projects/' | url }}">{{ ui.work }}</a>
+        <a href="{{ 'expertise/' | url }}">{{ ui.expertise }}</a>
+        <a href="{{ 'heritage/' | url }}">{{ ui.heritage }}</a>
+        <a href="{{ 'about/' | url }}">{{ ui.about }}</a>
+        <a href="{{ 'contact/' | url }}">{{ ui.contact }}</a>
+      </div>
+      <div class="footer-meta">
+        <p><a href="https://leogalambos.github.io/">Leo Galamboš, Ph.D.</a></p>
+        <p>{{ ui.static }}</p>
+        <p>{{ ui.licensing }}</p>
+      </div>
+    </div>
+  </footer>
+  <script src="{{ 'assets/javascripts/site.js' | url }}" defer></script>
+</body>
+</html>

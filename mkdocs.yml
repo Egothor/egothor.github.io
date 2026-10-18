@@ -1,0 +1,208 @@
+site_name: Egothor
+site_url: https://www.egothor.org/
+site_description: Research-driven engineering for secure and regulated information systems, search, software assurance, cryptography and language
+  technology.
+site_author: Leo Galamboš
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+strict: true
+theme:
+  name: null
+  custom_dir: theme
+  locale: en
+nav:
+- Home: index.md
+- Work:
+  - Projects: projects/index.md
+  - EGOTHOR v4: projects/egothor-v4.md
+  - MethodAtlas: projects/methodatlas.md
+  - ZeroEcho: projects/zeroecho.md
+  - Radixor: projects/radixor.md
+  - conflux: projects/conflux.md
+- Expertise: expertise.md
+- Heritage: heritage.md
+- About:
+  - About Egothor: about.md
+  - Leo Galamboš: https://leogalambos.github.io/
+- Contact: contact.md
+markdown_extensions:
+- meta
+- tables
+- footnotes
+- admonition
+- attr_list
+- def_list
+- md_in_html
+- toc:
+    permalink: false
+    toc_depth: 2-3
+extra:
+  current_year: 2026
+  source_hub: https://gitea.egothor.org/Egothor
+  radixor_repo: https://github.com/leogalambos/Radixor
+  zeroecho_repo: https://gitea.egothor.org/Egothor/ZeroEcho
+  conflux_repo: https://gitea.egothor.org/Egothor/conflux
+  methodatlas_repo: https://github.com/Accenture/MethodAtlas
+  methodatlas_docs: https://accenture.github.io/MethodAtlas/
+  ui:
+    en:
+      skip: Skip to content
+      open_nav: Open navigation
+      primary: Primary navigation
+      source: Source repositories
+      language: Language
+      footer_intro: Research-driven engineering for secure, regulated and long-lived information systems.
+      work: Work
+      expertise: Expertise
+      heritage: Heritage
+      about: About
+      contact: Contact
+      static: Static by design · no analytics · no tracking scripts.
+      licensing: Project licensing follows the respective repositories.
+    zh:
+      skip: 跳至正文
+      open_nav: 打开导航
+      primary: 主导航
+      source: 源代码仓库
+      language: 语言
+      footer_intro: 面向安全、受监管且需要长期运行的信息系统的研究驱动型工程。
+      work: 项目
+      expertise: 专业领域
+      heritage: 沿革
+      about: 关于
+      contact: 联系
+      static: 静态设计 · 无分析工具 · 无跟踪脚本。
+      licensing: 各项目的许可遵循其对应代码仓库。
+    es:
+      skip: Saltar al contenido
+      open_nav: Abrir navegación
+      primary: Navegación principal
+      source: Repositorios de código
+      language: Idioma
+      footer_intro: Ingeniería impulsada por la investigación para sistemas de información seguros, regulados y de larga vida.
+      work: Trabajo
+      expertise: Especialización
+      heritage: Trayectoria
+      about: Acerca de
+      contact: Contacto
+      static: Diseño estático · sin analítica · sin scripts de seguimiento.
+      licensing: Las licencias de los proyectos se rigen por sus respectivos repositorios.
+    fr:
+      skip: Aller au contenu
+      open_nav: Ouvrir la navigation
+      primary: Navigation principale
+      source: Dépôts de code
+      language: Langue
+      footer_intro: Ingénierie guidée par la recherche pour des systèmes d’information sécurisés, réglementés et durables.
+      work: Travaux
+      expertise: Expertise
+      heritage: Héritage
+      about: À propos
+      contact: Contact
+      static: Conception statique · sans analytique · sans scripts de suivi.
+      licensing: Les licences des projets sont définies dans leurs dépôts respectifs.
+    de:
+      skip: Zum Inhalt springen
+      open_nav: Navigation öffnen
+      primary: Hauptnavigation
+      source: Quellcode-Repositories
+      language: Sprache
+      footer_intro: Forschungsgetriebene Entwicklung für sichere, regulierte und langlebige Informationssysteme.
+      work: Arbeiten
+      expertise: Fachgebiete
+      heritage: Historie
+      about: Über Egothor
+      contact: Kontakt
+      static: Statisch konzipiert · keine Analytik · keine Tracking-Skripte.
+      licensing: Die Lizenzierung der Projekte richtet sich nach den jeweiligen Repositories.
+plugins:
+- i18n:
+    docs_structure: suffix
+    fallback_to_default: true
+    languages:
+    - locale: en
+      name: English
+      build: true
+      default: true
+      site_description: Research-driven engineering for secure and regulated information systems, search, software assurance, cryptography and
+        language technology.
+      nav_translations:
+        Home: Home
+        Work: Work
+        Projects: Projects
+        Expertise: Expertise
+        Heritage: Heritage
+        About: About
+        About Egothor: About Egothor
+        Leo Galamboš: Leo Galamboš
+        Selected work: Selected work
+        Teaching: Teaching
+        Contact: Contact
+    - locale: zh
+      name: 中文
+      build: true
+      site_description: 面向安全与受监管信息系统、搜索、软件保障、密码工程和语言技术的研究驱动型工程。
+      nav_translations:
+        Home: 首页
+        Work: 项目
+        Projects: 项目概览
+        Expertise: 专业领域
+        Heritage: 沿革
+        About: 关于
+        About Egothor: 关于 Egothor
+        Leo Galamboš: Leo Galamboš
+        Selected work: 精选工作
+        Teaching: 教学
+        Contact: 联系
+    - locale: es
+      name: Español
+      build: true
+      site_description: Ingeniería impulsada por la investigación para sistemas de información seguros y regulados, búsqueda, aseguramiento de
+        software, criptografía y tecnología del lenguaje.
+      nav_translations:
+        Home: Inicio
+        Work: Trabajo
+        Projects: Proyectos
+        Expertise: Especialización
+        Heritage: Trayectoria
+        About: Acerca de
+        About Egothor: Acerca de Egothor
+        Leo Galamboš: Leo Galamboš
+        Selected work: Trabajo seleccionado
+        Teaching: Docencia
+        Contact: Contacto
+    - locale: fr
+      name: Français
+      build: true
+      site_description: Ingénierie guidée par la recherche pour les systèmes d’information sécurisés et réglementés, la recherche, l’assurance
+        logicielle, la cryptographie et les technologies du langage.
+      nav_translations:
+        Home: Accueil
+        Work: Travaux
+        Projects: Projets
+        Expertise: Expertise
+        Heritage: Héritage
+        About: À propos
+        About Egothor: À propos d’Egothor
+        Leo Galamboš: Leo Galamboš
+        Selected work: Travaux sélectionnés
+        Teaching: Enseignement
+        Contact: Contact
+    - locale: de
+      name: Deutsch
+      build: true
+      site_description: Forschungsgetriebene Entwicklung für sichere und regulierte Informationssysteme, Suche, Software Assurance, Kryptografie
+        und Sprachtechnologie.
+      nav_translations:
+        Home: Start
+        Work: Arbeiten
+        Projects: Projekte
+        Expertise: Fachgebiete
+        Heritage: Historie
+        About: Über Egothor
+        About Egothor: Über Egothor
+        Leo Galamboš: Leo Galamboš
+        Selected work: Ausgewählte Arbeiten
+        Teaching: Lehre
+        Contact: Kontakt
