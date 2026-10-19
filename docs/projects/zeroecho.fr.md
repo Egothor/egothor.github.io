@@ -11,7 +11,7 @@ page_class: project-detail project-zeroecho
     <p class="eyebrow"><span></span> Systèmes cryptographiques · Egothor</p>
     <div class="project-title-row"><img src="/assets/images/zeroecho-mark.svg" alt="" width="86" height="86"><h1>ZeroEcho</h1></div>
     <p class="page-lede">Un toolkit Java modulaire pour construire des workflows cryptographiques et PKI exigeant des choix algorithmiques explicites, des frontières de clés contrôlées et une trajectoire d’évolution de la cryptographie classique vers des déploiements post-quantiques et hybrides.</p>
-    <div class="hero-actions"><a class="button button--primary" href="https://gitea.egothor.org/Egothor/ZeroEcho">Ouvrir le dépôt ↗</a><a class="button button--quiet" href="https://www.egothor.org/javadoc/zeroecho/lib/">JavaDoc de la bibliothèque ↗</a></div>
+    <div class="hero-actions"><a class="button button--primary" href="https://github.com/Egothor/ZeroEcho">Ouvrir le dépôt ↗</a><a class="button button--quiet" href="https://www.egothor.org/ZeroEcho/developer/javadoc.html">Vue d’ensemble JavaDoc ↗</a></div>
   </div>
   <div class="metric-panel">
     <div><strong>PQC</strong><span>algorithmes de l’ère NIST</span><small>ML-KEM et familles de signatures post-quantiques dans l’inventaire actif</small></div>
@@ -95,10 +95,15 @@ ZeroEcho conserve aussi son orientation opérationnelle initiale : protection mu
 ## Ressources du projet
 
 <div class="resource-grid resource-grid--three">
-  <a href="https://gitea.egothor.org/Egothor/ZeroEcho"><strong>Dépôt source</strong><span>Code, historique des releases et documentation ↗</span></a>
-  <a href="https://www.egothor.org/javadoc/zeroecho/lib/"><strong>JavaDoc bibliothèque</strong><span>API cryptographique centrale ↗</span></a>
-  <a href="https://www.egothor.org/javadoc/zeroecho/pki/"><strong>JavaDoc PKI</strong><span>API des services PKI ↗</span></a>
-  <a href="https://www.egothor.org/javadoc/zeroecho/app/"><strong>JavaDoc application</strong><span>CLI et intégration applicative ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/"><strong>Site du projet</strong><span>Documentation et présentation du projet ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/developer/javadoc.html"><strong>Vue d’ensemble JavaDoc</strong><span>Documentation API par module ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/ext/index.html"><strong>ext JavaDoc</strong><span>API du module: ext ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/pki-server/index.html"><strong>pki-server JavaDoc</strong><span>API du module: pki-server ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/api-spec/index.html"><strong>api-spec JavaDoc</strong><span>API du module: api-spec ↗</span></a>
+  <a href="https://github.com/Egothor/ZeroEcho"><strong>Dépôt source</strong><span>Code, historique des releases et documentation ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/lib/index.html"><strong>JavaDoc bibliothèque</strong><span>API cryptographique centrale ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/pki/index.html"><strong>JavaDoc PKI</strong><span>API des services PKI ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/app/index.html"><strong>JavaDoc application</strong><span>CLI et intégration applicative ↗</span></a>
   <a href="https://www.researchgate.net/publication/396241638_ZeroEcho_No_Signal_Is_Ever_Truly_Silent_A_Modular_Toolkit_for_Covert_Resilient_and_Future-Proof_Communication"><strong>Publication du projet</strong><span>Périmètre initial et contexte de recherche ↗</span></a>
   <a href="/fr/projects/methodatlas/"><strong>MethodAtlas</strong><span>Paquets de preuves protégés par des signatures ZeroEcho →</span></a>
 </div>

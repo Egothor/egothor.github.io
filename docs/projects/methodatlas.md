@@ -120,7 +120,7 @@ MethodAtlas began with an open-source foundation developed by **Egothor**. **Acc
   <a href="https://accenture.github.io/MethodAtlas/"><strong>Documentation</strong><span>Concepts, workflows and CLI reference ↗</span></a>
   <a href="https://github.com/Accenture/MethodAtlas"><strong>Source repository</strong><span>Public source, issues and releases ↗</span></a>
   <a href="https://accenture.github.io/MethodAtlas/cli-reference/"><strong>CLI reference</strong><span>Command-line options and output modes ↗</span></a>
-  <a href="https://accenture.github.io/MethodAtlas/concepts/"><strong>Concepts</strong><span>Evidence and security-analysis model ↗</span></a>
+  <a href="https://accenture.github.io/MethodAtlas/concepts/for-security-teams/"><strong>Security teams guide</strong><span>Outputs, scores, drift, findings and audit ↗</span></a>
   <a href="/projects/zeroecho/"><strong>ZeroEcho</strong><span>Cryptographic evidence-pack signing →</span></a>
   <a href="/expertise/"><strong>Software assurance</strong><span>Egothor engineering context →</span></a>
 </div>

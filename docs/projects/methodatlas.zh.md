@@ -121,7 +121,7 @@ MethodAtlas 最初基于 **Egothor 开发的开源基础**。**Accenture 随后�
   <a href="https://accenture.github.io/MethodAtlas/"><strong>文档</strong><span>概念、工作流和 CLI 参考 ↗</span></a>
   <a href="https://github.com/Accenture/MethodAtlas"><strong>源代码仓库</strong><span>公开源代码、问题和版本发布 ↗</span></a>
   <a href="https://accenture.github.io/MethodAtlas/cli-reference/"><strong>CLI 参考</strong><span>命令行选项和输出模式 ↗</span></a>
-  <a href="https://accenture.github.io/MethodAtlas/concepts/"><strong>概念</strong><span>证据与安全分析模型 ↗</span></a>
+  <a href="https://accenture.github.io/MethodAtlas/concepts/for-security-teams/"><strong>安全团队指南</strong><span>结果、评分、漂移、发现与审计 ↗</span></a>
   <a href="/zh/projects/zeroecho/"><strong>ZeroEcho</strong><span>证据包密码签名 →</span></a>
   <a href="/zh/expertise/"><strong>软件保障</strong><span>Egothor 工程背景 →</span></a>
 </div>

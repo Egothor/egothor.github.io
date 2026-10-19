@@ -14,7 +14,7 @@ page_class: contact-page
 
 <section class="section shell section--tight-top">
   <div class="contact-grid">
-    <article><span class="contact-type">项目</span><h2>Egothor 代码仓库</h2><p>用于 Radixor、ZeroEcho 和 conflux 的源代码、发布版本及技术背景。</p><a class="button button--quiet" href="https://gitea.egothor.org/Egothor">打开代码中心 ↗</a></article>
+    <article><span class="contact-type">项目</span><h2>Egothor 代码仓库</h2><p>用于 Radixor、ZeroEcho 和 conflux 的源代码、发布版本及技术背景。</p><a class="button button--quiet" href="https://github.com/Egothor">打开代码中心 ↗</a></article>
     <article><span class="contact-type">项目</span><h2>MethodAtlas</h2><p>MethodAtlas 的源代码、问题跟踪和项目文档请使用公开项目仓库。</p><a class="button button--quiet" href="https://github.com/Accenture/MethodAtlas">打开 GitHub ↗</a></article>
     <article><span class="contact-type">专业背景</span><h2>Leo Galamboš, Ph.D.</h2><p>如需查看专业背景、精选项目和教学经历，请继续访问个人页面。</p><a class="button button--quiet" href="https://leogalambos.github.io/">打开个人页面 <span aria-hidden="true">→</span></a></article>
   </div>

@@ -11,7 +11,7 @@ page_class: project-detail project-conflux
     <p class="eyebrow"><span></span> Java-Infrastruktur · Egothor</p>
     <div class="project-title-row"><img src="/assets/images/conflux-mark.svg" alt="" width="86" height="86"><h1>conflux</h1></div>
     <p class="page-lede">Eine bewusst kleine Java-Bibliothek für Situationen, in denen unabhängige Komponenten etwas typsicheren gemeinsamen Zustand teilen und auf Änderungen reagieren müssen — ohne daraus ein Dependency-Injection-Framework oder eine vollständige Anwendungsarchitektur zu machen.</p>
-    <div class="hero-actions"><a class="button button--primary" href="https://gitea.egothor.org/Egothor/conflux">Repository öffnen ↗</a><a class="button button--quiet" href="https://www.egothor.org/javadoc/conflux/">JavaDoc ↗</a></div>
+    <div class="hero-actions"><a class="button button--primary" href="https://github.com/Egothor/conflux">Repository öffnen ↗</a><a class="button button--quiet" href="https://www.egothor.org/conflux/javadoc/">JavaDoc ↗</a></div>
   </div>
   <div class="metric-panel">
     <div><strong>Typed</strong><span>gemeinsame Keys</span><small>ein Kontextschlüsselname ist konsistent mit einem Java-Typ verbunden</small></div>
@@ -65,4 +65,4 @@ Dieser enge Scope macht die Bibliothek auch als Infrastruktur in größeren Syst
 
 ## Projektressourcen
 
-<div class="resource-grid resource-grid--three"><a href="https://gitea.egothor.org/Egothor/conflux"><strong>Source-Repository</strong><span>Code, Tags, Releases und README ↗</span></a><a href="https://www.egothor.org/javadoc/conflux/"><strong>JavaDoc</strong><span>Öffentliche API-Referenz ↗</span></a><a href="https://gitea.egothor.org/Egothor/conflux/wiki"><strong>Projekt-Wiki</strong><span>Nutzung und Projektnotizen ↗</span></a></div>
+<div class="resource-grid resource-grid--three"><a href="https://github.com/Egothor/conflux"><strong>Source-Repository</strong><span>Code, Tags, Releases und README ↗</span></a><a href="https://www.egothor.org/conflux/javadoc/"><strong>JavaDoc</strong><span>Öffentliche API-Referenz ↗</span></a><a href="https://www.egothor.org/conflux/"><strong>Projektwebsite</strong><span>Dokumentation und Projektübersicht ↗</span></a></div>

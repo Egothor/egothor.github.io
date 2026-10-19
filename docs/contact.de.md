@@ -14,7 +14,7 @@ page_class: contact-page
 
 <section class="section shell section--tight-top">
   <div class="contact-grid">
-    <article><span class="contact-type">PROJEKTE</span><h2>Egothor-Repositories</h2><p>Für Sourcecode, Releases und technischen Kontext zu Radixor, ZeroEcho und conflux.</p><a class="button button--quiet" href="https://gitea.egothor.org/Egothor">Source Hub öffnen ↗</a></article>
+    <article><span class="contact-type">PROJEKTE</span><h2>Egothor-Repositories</h2><p>Für Sourcecode, Releases und technischen Kontext zu Radixor, ZeroEcho und conflux.</p><a class="button button--quiet" href="https://github.com/Egothor">Source Hub öffnen ↗</a></article>
     <article><span class="contact-type">PROJEKT</span><h2>MethodAtlas</h2><p>Für MethodAtlas-Sourcecode, Issues und Projektdokumentation das öffentliche Projekt-Repository verwenden.</p><a class="button button--quiet" href="https://github.com/Accenture/MethodAtlas">GitHub öffnen ↗</a></article>
     <article><span class="contact-type">PROFESSIONELL</span><h2>Leo Galamboš, Ph.D.</h2><p>Für professionellen Hintergrund, ausgewählte Arbeiten und Lehrkontext weiter zum persönlichen Profil.</p><a class="button button--quiet" href="https://leogalambos.github.io/">Profil öffnen <span aria-hidden="true">→</span></a></article>
   </div>

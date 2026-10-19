@@ -11,7 +11,7 @@ page_class: project-detail project-zeroecho
     <p class="eyebrow"><span></span> 密码系统 · Egothor</p>
     <div class="project-title-row"><img src="/assets/images/zeroecho-mark.svg" alt="" width="86" height="86"><h1>ZeroEcho</h1></div>
     <p class="page-lede">模块化 Java 工具包，用于构建需要显式算法选择、受控密钥边界，以及从经典密码平滑演进到后量子和混合部署的密码与 PKI 工作流。</p>
-    <div class="hero-actions"><a class="button button--primary" href="https://gitea.egothor.org/Egothor/ZeroEcho">打开代码仓库 ↗</a><a class="button button--quiet" href="https://www.egothor.org/javadoc/zeroecho/lib/">库 JavaDoc ↗</a></div>
+    <div class="hero-actions"><a class="button button--primary" href="https://github.com/Egothor/ZeroEcho">打开代码仓库 ↗</a><a class="button button--quiet" href="https://www.egothor.org/ZeroEcho/developer/javadoc.html">JavaDoc 概览 ↗</a></div>
   </div>
   <div class="metric-panel">
     <div><strong>PQC</strong><span>NIST 世代算法</span><small>活跃算法清单包含 ML-KEM 和后量子签名家族</small></div>
@@ -98,10 +98,15 @@ ZeroEcho 还保留最初的运营重点：多接收者保护、可脚本化加�
 ## 项目资源
 
 <div class="resource-grid resource-grid--three">
-  <a href="https://gitea.egothor.org/Egothor/ZeroEcho"><strong>源代码仓库</strong><span>代码、版本历史和项目文档 ↗</span></a>
-  <a href="https://www.egothor.org/javadoc/zeroecho/lib/"><strong>库 JavaDoc</strong><span>核心密码 API ↗</span></a>
-  <a href="https://www.egothor.org/javadoc/zeroecho/pki/"><strong>PKI JavaDoc</strong><span>PKI 服务 API ↗</span></a>
-  <a href="https://www.egothor.org/javadoc/zeroecho/app/"><strong>应用 JavaDoc</strong><span>CLI 与应用集成 ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/"><strong>项目网站</strong><span>文档与项目概览 ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/developer/javadoc.html"><strong>JavaDoc 概览</strong><span>按模块浏览 API 文档 ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/ext/index.html"><strong>ext JavaDoc</strong><span>模块 API: ext ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/pki-server/index.html"><strong>pki-server JavaDoc</strong><span>模块 API: pki-server ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/api-spec/index.html"><strong>api-spec JavaDoc</strong><span>模块 API: api-spec ↗</span></a>
+  <a href="https://github.com/Egothor/ZeroEcho"><strong>源代码仓库</strong><span>代码、版本历史和项目文档 ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/lib/index.html"><strong>库 JavaDoc</strong><span>核心密码 API ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/pki/index.html"><strong>PKI JavaDoc</strong><span>PKI 服务 API ↗</span></a>
+  <a href="https://www.egothor.org/ZeroEcho/javadoc/app/index.html"><strong>应用 JavaDoc</strong><span>CLI 与应用集成 ↗</span></a>
   <a href="https://www.researchgate.net/publication/396241638_ZeroEcho_No_Signal_Is_Ever_Truly_Silent_A_Modular_Toolkit_for_Covert_Resilient_and_Future-Proof_Communication"><strong>项目论文</strong><span>最初工具包范围与研究背景 ↗</span></a>
   <a href="/zh/projects/methodatlas/"><strong>MethodAtlas</strong><span>使用 ZeroEcho 签名保护证据包 →</span></a>
 </div>

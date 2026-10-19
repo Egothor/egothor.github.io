@@ -10,7 +10,7 @@ page_class: project-detail project-conflux
     <p class="eyebrow"><span></span> Java infrastructure · Egothor</p>
     <div class="project-title-row"><img src="/assets/images/conflux-mark.svg" alt="" width="86" height="86"><h1>conflux</h1></div>
     <p class="page-lede">A deliberately small Java library for the cases where independent components need to share a little typed state and react when it changes—without turning that coordination need into a dependency-injection framework or application architecture.</p>
-    <div class="hero-actions"><a class="button button--primary" href="https://gitea.egothor.org/Egothor/conflux">Open repository ↗</a><a class="button button--quiet" href="https://www.egothor.org/javadoc/conflux/">JavaDoc ↗</a></div>
+    <div class="hero-actions"><a class="button button--primary" href="https://github.com/Egothor/conflux">Open repository ↗</a><a class="button button--quiet" href="https://www.egothor.org/conflux/javadoc/">JavaDoc ↗</a></div>
   </div>
   <div class="metric-panel">
     <div><strong>Typed</strong><span>shared keys</span><small>one consistent Java type is associated with a context key name</small></div>
@@ -84,7 +84,7 @@ That narrow scope also makes the library suitable as infrastructure inside large
 ## Project resources
 
 <div class="resource-grid resource-grid--three">
-  <a href="https://gitea.egothor.org/Egothor/conflux"><strong>Source repository</strong><span>Code, tags, releases and README ↗</span></a>
-  <a href="https://www.egothor.org/javadoc/conflux/"><strong>JavaDoc</strong><span>Public API reference ↗</span></a>
-  <a href="https://gitea.egothor.org/Egothor/conflux/wiki"><strong>Project wiki</strong><span>Usage and project notes ↗</span></a>
+  <a href="https://github.com/Egothor/conflux"><strong>Source repository</strong><span>Code, tags, releases and README ↗</span></a>
+  <a href="https://www.egothor.org/conflux/javadoc/"><strong>JavaDoc</strong><span>Public API reference ↗</span></a>
+  <a href="https://www.egothor.org/conflux/"><strong>Project website</strong><span>Documentation and project overview ↗</span></a>
 </div>

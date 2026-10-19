@@ -39,10 +39,10 @@ markdown_extensions:
     toc_depth: 2-3
 extra:
   current_year: 2026
-  source_hub: https://gitea.egothor.org/Egothor
+  source_hub: https://github.com/Egothor
   radixor_repo: https://github.com/leogalambos/Radixor
-  zeroecho_repo: https://gitea.egothor.org/Egothor/ZeroEcho
-  conflux_repo: https://gitea.egothor.org/Egothor/conflux
+  zeroecho_repo: https://github.com/Egothor/ZeroEcho
+  conflux_repo: https://github.com/Egothor/conflux
   methodatlas_repo: https://github.com/Accenture/MethodAtlas
   methodatlas_docs: https://accenture.github.io/MethodAtlas/
   ui:

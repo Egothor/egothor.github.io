@@ -11,7 +11,7 @@ page_class: project-detail project-conflux
     <p class="eyebrow"><span></span> Infraestructura Java · Egothor</p>
     <div class="project-title-row"><img src="/assets/images/conflux-mark.svg" alt="" width="86" height="86"><h1>conflux</h1></div>
     <p class="page-lede">Una biblioteca Java deliberadamente pequeña para los casos en que componentes independientes necesitan compartir un poco de estado tipado y reaccionar a sus cambios, sin convertir esa necesidad de coordinación en un framework de inyección de dependencias ni en una arquitectura de aplicación.</p>
-    <div class="hero-actions"><a class="button button--primary" href="https://gitea.egothor.org/Egothor/conflux">Abrir repositorio ↗</a><a class="button button--quiet" href="https://www.egothor.org/javadoc/conflux/">JavaDoc ↗</a></div>
+    <div class="hero-actions"><a class="button button--primary" href="https://github.com/Egothor/conflux">Abrir repositorio ↗</a><a class="button button--quiet" href="https://www.egothor.org/conflux/javadoc/">JavaDoc ↗</a></div>
   </div>
   <div class="metric-panel">
     <div><strong>Typed</strong><span>claves compartidas</span><small>un nombre de clave de contexto queda asociado a un tipo Java coherente</small></div>
@@ -80,7 +80,7 @@ Ese alcance reducido también lo hace adecuado como infraestructura dentro de si
 ## Recursos del proyecto
 
 <div class="resource-grid resource-grid--three">
-  <a href="https://gitea.egothor.org/Egothor/conflux"><strong>Repositorio fuente</strong><span>Código, tags, versiones y README ↗</span></a>
-  <a href="https://www.egothor.org/javadoc/conflux/"><strong>JavaDoc</strong><span>Referencia pública de API ↗</span></a>
-  <a href="https://gitea.egothor.org/Egothor/conflux/wiki"><strong>Wiki del proyecto</strong><span>Uso y notas del proyecto ↗</span></a>
+  <a href="https://github.com/Egothor/conflux"><strong>Repositorio fuente</strong><span>Código, tags, versiones y README ↗</span></a>
+  <a href="https://www.egothor.org/conflux/javadoc/"><strong>JavaDoc</strong><span>Referencia pública de API ↗</span></a>
+  <a href="https://www.egothor.org/conflux/"><strong>Sitio del proyecto</strong><span>Documentación y resumen del proyecto ↗</span></a>
 </div>

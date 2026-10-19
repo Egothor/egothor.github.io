@@ -13,7 +13,7 @@ page_class: contact-page
 
 <section class="section shell section--tight-top">
   <div class="contact-grid">
-    <article><span class="contact-type">PROJECTS</span><h2>Egothor repositories</h2><p>For Radixor, ZeroEcho and conflux source, releases and technical project context.</p><a class="button button--quiet" href="https://gitea.egothor.org/Egothor">Open source hub ↗</a></article>
+    <article><span class="contact-type">PROJECTS</span><h2>Egothor repositories</h2><p>For Radixor, ZeroEcho and conflux source, releases and technical project context.</p><a class="button button--quiet" href="https://github.com/Egothor">Open source hub ↗</a></article>
     <article><span class="contact-type">PROJECT</span><h2>MethodAtlas</h2><p>For MethodAtlas source, issues and project documentation, use the public project repository.</p><a class="button button--quiet" href="https://github.com/Accenture/MethodAtlas">Open GitHub ↗</a></article>
     <article><span class="contact-type">PROFESSIONAL</span><h2>Leo Galamboš, Ph.D.</h2><p>For professional background, selected work and teaching context, continue to the personal profile.</p><a class="button button--quiet" href="https://leogalambos.github.io/">Open profile <span aria-hidden="true">→</span></a></article>
   </div>
